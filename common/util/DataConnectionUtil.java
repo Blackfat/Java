@@ -1,4 +1,4 @@
-package com.shsasc.a4fuser.util;
+ï»¿package com.shsasc.a4fuser.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,9 +9,9 @@ import java.sql.Statement;
 import com.cascc.avidm.util.DebugLog;
 
 /**
- * Êı¾İÁ¬½Ó
+ * æ•°æ®è¿æ¥
  * 
- * @author Íõ·ÉÑó
+ * @author ç‹é£æ´‹
  * @version 2016-9-5
  */
 public class DataConnectionUtil {
