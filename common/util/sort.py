@@ -7,10 +7,10 @@ def bubble_sort(list):
     if list:
         pass
     count = len(list)
-    for i in range(0, count):
-        for j in range(i+1, count):
-            if list[i] > list[j]:
-                list[i], list[j] = list[j], list[i]
+    for i in range(0, count-1):
+        for j in range(0, count-1-i):
+            if list[j] > list[j+1]:
+                list[j], list[j+1] = list[j+1], list[j]
     return list
 
 #插入排序
